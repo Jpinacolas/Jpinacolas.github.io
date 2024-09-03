@@ -1,1 +1,1 @@
-- <strong>Fotografía y edición de imagen</strong>, Universidad de Zaragoza - Fall 2024.
+- <strong>Fotografía, Composición y Edición de Imágenes</strong>, Universidad de Zaragoza - Fall 2024.
