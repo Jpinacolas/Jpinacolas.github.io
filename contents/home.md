@@ -1,16 +1,15 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![Jpinacolas](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/Jpinacolas)
 
-He is currently pursuing a Master's Degree in Computer Science, at School of Computer Science and Technology, China University of Mining and Technology, China.
+I am a PHD student at the Graphics and Imaging Lab, working under the supervision of Prof. Belén Masiá and Prof. Ana Serrano. I completed my Bachelor's degree in Computer Engineering and my Master's degree in Robotics, Graphics and Computer Vision at Universidad de Zaragoza (Spain). I started my PHD in 2024, and my thesis focuses on the study of multimodality in Virtual Reality through the use of physiological and behavioral signals.
 
 #### Email
-sli[at]cumt.edu.cn
+jpinac (at) unizar (dot) es
 
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025 (expected).\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+#### Location
+Zaragoza, Spain
 
 #### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+Virtual Reality, Human Perception, Deep Learning.
 
