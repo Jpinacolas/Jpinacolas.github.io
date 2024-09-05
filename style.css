@@ -98,6 +98,27 @@ body {
     margin-top: 0px;
 }
 
+.social-icons {
+    margin-top: 20px;
+    text-align: center; /* Center the icons */
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust size as needed */
+    color: #007bff; /* Blue color for icons */
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.social-icon i {
+    font-size: inherit; /* Ensure icon size matches parent */
+}
+
 .main-body {
     max-width: 1000px; /* Adjust this value to control the width of the content */
     margin-left: auto;
