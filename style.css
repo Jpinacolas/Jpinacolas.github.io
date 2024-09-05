@@ -1,0 +1,111 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.brand a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: #007bff;
+}
+
+.top-section {
+    background-image: url('https://jpinacolas.github.io/static/assets/img/background.jpeg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px; /* Offset for fixed navbar */
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.section:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+.section header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.main-body {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
