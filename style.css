@@ -93,10 +93,37 @@ body {
     max-width: 800px; /* Adjust this value to control the width of the content */
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: justify;
     font-size: 1.1rem;
     line-height: 1.6;
 }
+
+.publication-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Space between publication items */
+}
+
+.teaser-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 20px; /* Space between the image and the text */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow to the image */
+}
+
+.publication-info h3 {
+    margin: 0 0 10px 0; /* Space below the title */
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.publication-info p {
+    margin: 5px 0;
+    color: #666;
+    line-height: 1.5;
+}
+
 
 .footer {
     background-color: #333;
