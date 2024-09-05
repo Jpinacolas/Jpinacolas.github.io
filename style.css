@@ -219,6 +219,18 @@ body {
     margin-right: 20px; /* Space between the image and the text */
 }
 
+.timeline-info h3 {
+    margin: 0 0 10px 0; /* Space below the title */
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.timeline-info p {
+    margin: 5px 0;
+    line-height: 1.5;
+    color: #666;
+}
+
 .timeline-item::before {
     content: '';
     position: absolute;
