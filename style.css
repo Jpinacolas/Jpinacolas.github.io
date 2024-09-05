@@ -217,7 +217,6 @@ body {
 .career-image {
     width: 75px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
-    margin-right: 20px; /* Space between the image and the text */
 }
 
 .timeline-info h3 {
