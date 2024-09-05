@@ -150,57 +150,57 @@ body {
     text-decoration: underline;
 }
 
-.timeline {
+.career-timeline {
     position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px 0;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: 2px solid #007bff; /* Vertical line */
 }
 
-.timeline-item {
-    display: flex;
-    justify-content: space-between;
+.career-item {
     position: relative;
-    margin-bottom: 20px;
-    padding-left: 40px;
+    margin-bottom: 30px;
+    padding-left: 30px; /* Adjust this to move the content right */
 }
 
-.timeline-date {
-    font-weight: bold;
-    color: #666;
-    width: 200px;
-    flex-shrink: 0;
-}
-
-.timeline-content {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: calc(100% - 140px);
-}
-
-.timeline-item::before {
-    content: '';
+.career-date {
     position: absolute;
-    left: 20px;
-    width: 10px;
-    height: 10px;
+    left: -120px; /* Align date with the marker */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    font-weight: bold;
+    color: #007bff;
+    text-align: right;
+    width: 100px; /* Ensure consistent width */
+}
+
+.career-content {
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+.career-marker {
+    width: 15px;
+    height: 15px;
     background-color: #007bff;
     border-radius: 50%;
-    top: 20px;
-}
-
-.timeline-item::after {
-    content: '';
     position: absolute;
-    left: 24px;
-    top: 28px;
-    width: 2px;
-    height: calc(100% + 20px);
-    background-color: #007bff;
+    left: -8px; /* Position on the vertical line */
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.timeline-item:last-child::after {
-    display: none;
+.career-details {
+    margin-left: 40px; /* Spacing between marker and content */
+}
+
+.career-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.career-description {
+    margin: 5px 0 0 0;
+    color: #666;
 }
