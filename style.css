@@ -150,64 +150,57 @@ body {
     text-decoration: underline;
 }
 
-.career-timeline {
+.timeline {
     position: relative;
-    margin-left: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
-.career-item {
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    padding-left: 50px; /* Space for the marker and line */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding-left: 40px;
 }
 
-.career-item:last-child .career-marker::after {
-    display: none; /* Remove the line for the last item */
+.timeline-date {
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    flex-shrink: 0;
 }
 
-.career-marker {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 15px;
-    height: 15px;
-    background-color: #007bff; /* Blue color for the marker */
-    border-radius: 50%;
+.timeline-content {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 140px);
 }
 
-.career-marker::after {
+.timeline-item::before {
     content: '';
     position: absolute;
-    width: 2px;
-    height: 100%;
-    background-color: #007bff; /* Same color as the marker */
-    left: 50%;
-    top: 100%;
-    transform: translateX(-50%);
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    top: 20px;
 }
 
-.career-content {
-    position: relative;
-}
-
-.career-date {
-    font-weight: bold;
-    color: #007bff;
+.timeline-item::after {
+    content: '';
     position: absolute;
-    left: -130px; /* Adjust position of the date */
-    top: 50%;
-    transform: translateY(-50%); /* Center vertically */
-    text-align: right;
-    width: 100px;
+    left: 24px;
+    top: 28px;
+    width: 2px;
+    height: calc(100% + 20px);
+    background-color: #007bff;
 }
 
-.career-title {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.career-description {
-    margin-top: 5px;
-    color: #666;
+.timeline-item:last-child::after {
+    display: none;
 }
