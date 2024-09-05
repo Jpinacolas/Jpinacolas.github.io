@@ -160,7 +160,7 @@ body {
 .career-item {
     position: relative;
     margin-bottom: 30px;
-    padding-left: 30px; /* Adjust this to move the content right */
+    align-items: center; /* Adjust this to move the content right */
 }
 
 .career-date {
