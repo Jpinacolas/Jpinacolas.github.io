@@ -152,47 +152,53 @@ body {
 
 .career-timeline {
     position: relative;
-    margin-left: 50px;
-    padding-left: 20px;
-    border-left: 2px solid #401473; /* Vertical line */
-    align-items: center;
+    margin-left: 30px;
 }
 
 .career-item {
     position: relative;
-    margin-bottom: 30px;
-    align-items: center; /* Adjust this to move the content right */
+    padding-left: 50px; /* Space for the marker and line */
+    margin-bottom: 40px;
 }
 
-.career-date {
-    position: absolute;
-    left: -120px; /* Align date with the marker */
-    top: 50%;
-    transform: translateY(-50%); /* Center vertically */
-    font-weight: bold;
-    color: #401473;
-    text-align: right;
-    width: 200px; /* Ensure consistent width */
-}
-
-.career-content {
-    display: flex;
-    align-items: center; /* Center content vertically */
+.career-item:last-child .career-marker::after {
+    display: none; /* Remove the line for the last item */
 }
 
 .career-marker {
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 15px;
     height: 15px;
-    background-color: #401473;
+    background-color: #007bff; /* Blue color for the marker */
     border-radius: 50%;
-    position: absolute;
-    left: -8px; /* Position on the vertical line */
-    top: 50%;
-    transform: translateY(-50%);
 }
 
-.career-details {
-    margin-left: 40px; /* Spacing between marker and content */
+.career-marker::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #007bff; /* Same color as the marker */
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+
+.career-content {
+    position: relative;
+}
+
+.career-date {
+    font-weight: bold;
+    color: #007bff;
+    position: absolute;
+    left: -130px; /* Adjust position of the date */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    text-align: right;
+    width: 100px;
 }
 
 .career-title {
@@ -202,6 +208,6 @@ body {
 }
 
 .career-description {
-    margin: 5px 0 0 0;
+    margin-top: 5px;
     color: #666;
 }
