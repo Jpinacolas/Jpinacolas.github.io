@@ -80,6 +80,7 @@ body {
 .section header {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 0px;
 }
 
 .section h2 {
@@ -89,6 +90,9 @@ body {
 }
 
 .main-body {
+    max-width: 800px; /* Adjust this value to control the width of the content */
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.6;
