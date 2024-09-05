@@ -83,6 +83,11 @@ body {
     margin-top: 0px;
 }
 
+.section subheader {
+    text-align: center;
+    color: #401473;
+}
+
 .section h2 {
     font-size: 2rem;
     color: #333;
@@ -105,7 +110,7 @@ body {
 }
 
 .teaser-image {
-    width: 150px; /* Adjust the width as needed */
+    width: 200px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
     margin-right: 20px; /* Space between the image and the text */
     border-radius: 5px; /* Optional: Add rounded corners */
