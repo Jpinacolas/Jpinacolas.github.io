@@ -145,3 +145,107 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.timeline-content {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 140px);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 28px;
+    width: 2px;
+    height: calc(100% + 20px);
+    background-color: #007bff;
+}
+
+.timeline-item:last-child::after {
+    display: none;
+}
+
+.career-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.career-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.career-item h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.career-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.career-card {
+    background-color: #f9f9f9;
+    width: calc(50% - 10px); /* Two cards per row */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.career-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
