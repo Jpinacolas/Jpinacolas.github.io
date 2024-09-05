@@ -25,6 +25,7 @@ body {
     font-weight: 700;
     color: #333;
     text-decoration: none;
+    padding: 20px 0;
 }
 
 .nav-list {
@@ -112,7 +113,7 @@ body {
 }
 
 .teaser-image {
-    width: 200px; /* Adjust the width as needed */
+    width: 300px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
     margin-right: 20px; /* Space between the image and the text */
     border-radius: 5px; /* Optional: Add rounded corners */
@@ -201,53 +202,4 @@ body {
 
 .timeline-item:last-child::after {
     display: none;
-}
-
-.career-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.career-item {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.career-item h3 {
-    margin-bottom: 10px;
-    color: #007bff;
-}
-
-.career-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-.career-card {
-    background-color: #f9f9f9;
-    width: calc(50% - 10px); /* Two cards per row */
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.career-card img {
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-}
-
-.card-content {
-    padding: 15px;
-}
-
-.card-content h3 {
-    margin-bottom: 10px;
-    color: #007bff;
 }
