@@ -60,7 +60,7 @@ body {
 .avatar {
     display: flex;
     justify-content: center;
-    margin-top: -70px;
+    margin-top: 0px;
 }
 
 .avatar img {
@@ -76,7 +76,7 @@ body {
 }
 
 .section:nth-child(odd) {
-    background-color: #e9e5ec;
+    background-color: #e0dde2;
 }
 
 .section header {
@@ -168,7 +168,7 @@ body {
 
 
 .footer {
-    background-color: #401473;
+    background-color: #392055;
     color: #fff;
     padding: 20px 0;
     text-align: center;
