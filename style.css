@@ -51,10 +51,10 @@ body {
 
 .top-section {
     background-image: url('https://jpinacolas.github.io/static/assets/img/background.jpeg');
-    height: 450px;
+    height: 300px;
     background-size: cover;
     background-position: center;
-    margin-top: 70px; /* Offset for fixed navbar */
+    margin-top: 0px; /* Offset for fixed navbar */
 }
 
 .avatar {
@@ -76,7 +76,7 @@ body {
 }
 
 .section:nth-child(even) {
-    background-color: #e8e1ee;
+    background-color: #eae6ee;
 }
 
 .section header {
