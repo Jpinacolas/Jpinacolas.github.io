@@ -75,8 +75,8 @@ body {
     background-color: #f8f9fa;
 }
 
-.section:nth-child(even) {
-    background-color: #eae6ee;
+.section:nth-child(odd) {
+    background-color: #e9e5ec;
 }
 
 .section header {
