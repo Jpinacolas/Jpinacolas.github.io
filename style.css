@@ -79,7 +79,7 @@ body {
 
 .section:nth-child(even) {
     top: -70px;
-    background-color: #e0dde2;
+    background-color: #e4e2e6;
 }
 
 .section header {
