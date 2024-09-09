@@ -72,6 +72,7 @@ body {
 }
 
 .section {
+    top: -70px;
     padding: 20px 0;
     background-color: #f8f9fa;
 }
