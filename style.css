@@ -18,6 +18,10 @@ body {
 .container {
     width: 85%;
     margin: 0 auto;
+}
+
+.photo-container {
+    margin: 0 auto;
     background-color: #e0dde2;
 }
 
