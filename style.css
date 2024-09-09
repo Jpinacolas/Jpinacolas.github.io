@@ -78,6 +78,7 @@ body {
 }
 
 .section:nth-child(even) {
+    top: -70px;
     background-color: #e0dde2;
 }
 
