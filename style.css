@@ -154,7 +154,6 @@ body {
     height: auto; /* Maintain the aspect ratio */
     margin-right: 20px; /* Space between the image and the text */
     border-radius: 5px; /* Optional: Add rounded corners */
-    border: 1px solid #2b2b2b;
 }
 
 .publication-info h3 {
