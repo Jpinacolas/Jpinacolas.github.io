@@ -150,11 +150,14 @@ body {
 }
 
 .teaser-image {
-    width: 300px; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
+    width: 400px; /* Adjust the width as needed */
+    height: 300px; /* Maintain the aspect ratio */
     margin-right: 20px; /* Space between the image and the text */
     border-radius: 5px; /* Optional: Add rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow to the image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000; /* optional, to make the box visible */
 }
 
 .publication-info h3 {
