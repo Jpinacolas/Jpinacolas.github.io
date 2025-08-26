@@ -289,8 +289,11 @@ body {
 }
 
 .stay-info h3 {
-    margin: 0 0 10px 0; /* Space below the title */
-    padding-left: 15px;
+    margin: 15px 0 10px 0; /* Space below the title */
     font-size: 1.2rem;
     color: #333;
+}
+
+.stay-info p {
+    margin: 15px 0 0 0; /* Space below the title */
 }
