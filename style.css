@@ -145,6 +145,7 @@ body {
 
 .publication-item {
     display: flex;
+    width: 600px;
     align-items: center;
     margin-bottom: 20px; /* Space between publication items */
 }
