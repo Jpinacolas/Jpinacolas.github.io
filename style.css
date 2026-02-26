@@ -147,15 +147,20 @@ body {
     display: flex;
     width: 1000px;
     align-items: center;
-    margin-bottom: 20px; /* Space between publication items */
+    margin-bottom: 40px; /* Space between publication items */
 }
 
 .teaser-image {
-    width: 300px; /* Adjust the width as needed */
+    width: 350px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
-    margin-right: 20px; /* Space between the image and the text */
+    margin-right: 30px; /* Space between the image and the text */
     border-radius: 5px; /* Optional: Add rounded corners */
 }
+
+.publication-info {
+    width: 1000px;
+}
+
 
 .publication-info h3 {
     margin: 0 0 10px 0; /* Space below the title */
