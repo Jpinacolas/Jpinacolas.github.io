@@ -145,7 +145,7 @@ body {
 
 .publication-item {
     display: flex;
-    width: 1000px;
+    width: 100%;
     align-items: center;
     margin-bottom: 40px; /* Space between publication items */
 }
@@ -155,10 +155,11 @@ body {
     height: auto; /* Maintain the aspect ratio */
     margin-right: 30px; /* Space between the image and the text */
     border-radius: 5px; /* Optional: Add rounded corners */
+    max-width: 100%;
 }
 
 .publication-info {
-    width: 1000px;
+    width: 100%;
 }
 
 
@@ -303,4 +304,201 @@ body {
 
 .stay-info p {
     padding-left: 15px;
+}
+
+.dissem-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px; /* Space between news */
+}
+
+.dissem-image {
+    width: 350px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 30px; /* Space between the image and the text */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.dissem-info {
+    width: 100%;
+}
+
+
+.dissem-info h3 {
+    margin: 0 0 10px 0; /* Space below the title */
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.dissem-info p {
+    margin: 5px 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    /* General layout */
+    .container {
+        width: 92%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .section h2 {
+        font-size: 1.6rem;
+    }
+
+    .main-body {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    /* Navbar */
+    .navbar {
+        padding: 0.8rem 0;
+    }
+
+    .navbar .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand {
+        margin-bottom: 10px;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.7rem;
+    }
+
+    .nav-list li a {
+        font-size: 0.8rem;
+    }
+
+    /* Banner */
+    .top-section {
+        height: 180px;
+        background-position: center;
+    }
+
+    /* Avatar */
+    .avatar {
+        margin-top: -50px;
+    }
+
+    .avatar img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Publications */
+    .publication-item {
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+
+    .publication-info {
+        width: 100%;
+    }
+
+    .teaser-image {
+        width: 100%;
+        max-width: 320px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .publication-info p {
+        text-align: left;
+    }
+
+    /* Dissemination */
+    .dissem-item {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dissem-image {
+        width: 100%;
+        max-width: 320px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .dissem-info {
+        width: 100%;
+    }
+
+    .dissem-info p {
+        text-align: left;
+    }
+
+    /* Timeline / Career */
+    .timeline-item {
+        flex-direction: column;
+        padding-left: 45px;
+    }
+
+    .timeline-date {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .timeline-content {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .career-image {
+        margin-bottom: 15px;
+    }
+
+    /* Research stays */
+    .stay-item {
+        padding-left: 0;
+    }
+
+    .stay-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stay-image {
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .stay-info h3,
+    .stay-info p {
+        padding-left: 0;
+    }
+
+    /* Social icons */
+    .social-icon {
+        font-size: 22px;
+        margin: 0 8px;
+    }
+
+    /* Footer */
+    .footer {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
 }
